@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2167040D-2C0D-B3F9-1DDF-21B5FEFE5CA6}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\3d_clouds\scripts\PanWM.cs" />
+     <Compile Include="Assets\3d_clouds\scripts\transparency.cs" />
+     <Compile Include="Assets\3d_clouds\scripts\visibility.cs" />
+     <Compile Include="Assets\ChangeMap.cs" />
+     <Compile Include="Assets\DynamicHeader.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Billing\Manage\AndroidInAppPurchaseManager.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Billing\Models\AndroidInventory.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Billing\Models\BillingResult.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Billing\Templates\GoogleProductTemplate.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Billing\Templates\GooglePurchaseTemplate.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Core\AndroidNative.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Enum\AndroidDialogResult.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Enum\BillingResponseCodes.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Other\AndroidAdMobController.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\Other\AndroidToast.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\PlayService\Manage\GoogleCloudManager.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\PlayService\Manage\GooglePlayConnection.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\PlayService\Manage\GooglePlayManager.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\PopUps\AndroidDialog.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\PopUps\AndroidMessage.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\PopUps\AndroidRateUsPopUp.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\PopUps\Base\BaseAndroidPopup.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\xExample\Scripts\AndroidAdMobExample.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\xExample\Scripts\AndroidPopUpExamples.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\xExample\Scripts\BillingExample.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\xExample\Scripts\GPaymnetManagerExample.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\xExample\Scripts\GoogleCloudUseExample.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\xExample\Scripts\NotoficationsExample.cs" />
+     <Compile Include="Assets\Extensions\AndroidNative\xExample\Scripts\PlayServiceExample.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\Core\Events\EventDispatcher.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\Core\Events\EventDispatcherBase.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\Data\BaseEvent.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\Templates\CEvent.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Events\interfaces\IDispatcher.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Example\Scripts\Button.cs" />
+     <Compile Include="Assets\Extensions\FlashLikeEvents\Example\Scripts\ExampleListner.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Enum\AndroidGravity.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Enum\GPAchievementState.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Enum\GPAchievementType.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Enum\GPBoardTimeSpan.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Enum\GPCollectionType.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Enum\GPConnectionState.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Enum\GoogleCloudSlot.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Enum\GooglePlayResponceCode.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Models\GPAchievement.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Models\GPLeaderBoard.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Models\GoogleCloudResult.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Models\GooglePlayResult.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\PUtil\PlayServiceUtil.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\PUtil\Singletone.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Templates\GooglePlayerTemplate.cs" />
+     <Compile Include="Assets\Extensions\GooglePlayCommon\Templates\LeaderBoardScoreVariant.cs" />
+     <Compile Include="Assets\GeologySelect.cs" />
+     <Compile Include="Assets\HeadTracking.cs" />
+     <Compile Include="Assets\Initialize.cs" />
+     <Compile Include="Assets\InputHandler.cs" />
+     <Compile Include="Assets\LogoButReset.cs" />
+     <Compile Include="Assets\LongPressEventTrigger.cs" />
+     <Compile Include="Assets\PanelButInc.cs" />
+     <Compile Include="Assets\PinchZoom.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CloudRecoBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\CylinderTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DataSetLoadBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultInitializationErrorHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultSmartTerrainEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\DefaultTrackableEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\GLErrorHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\ImageTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\AndroidUnityPlayer.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\BGRenderingBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\ComponentFactoryStarterBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\Internal\VuforiaBehaviourComponentFactory.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\KeepAliveBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MainMenuScript.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MarkerBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MaskOutBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\MultiTargetBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\PropBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\QCARBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SetBGCameraLayerBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SmartTerrainBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\SurfaceBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TextRecoBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\TurnOffWordBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\UserDefinedTargetBuildingBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\VirtualButtonBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WebCamBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeBehaviour.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WireframeTrackableEventHandler.cs" />
+     <Compile Include="Assets\Qualcomm Augmented Reality\Scripts\WordBehaviour.cs" />
+     <Compile Include="Assets\Restart.cs" />
+     <Compile Include="Assets\RotateTerrain.cs" />
+     <Compile Include="Assets\Scripts\ChangeSat.cs" />
+     <Compile Include="Assets\Scripts\Custom_VirtualButton.cs" />
+     <Compile Include="Assets\Scripts\DynamicText.cs" />
+     <Compile Include="Assets\Scripts\FlickrInput.cs" />
+     <Compile Include="Assets\Scripts\GyroController.cs" />
+     <Compile Include="Assets\Scripts\ImagePopup.cs" />
+     <Compile Include="Assets\Scripts\LoadFlickrImages.cs" />
+     <Compile Include="Assets\Scripts\MeshPixelTools.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\AgglomeratePress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\AndesitePress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\BasaltPress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\ClaySiltSandPress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\DacitePress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\DiamictonPress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\GravelPress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\MicrodioritePress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\PeatPress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\RhyolitePress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\SandGravelPress.cs" />
+     <Compile Include="Assets\Scripts\RockScripts\TuffPress.cs" />
+     <Compile Include="Assets\Scripts\TerrainHeight.cs" />
+     <Compile Include="Assets\Scripts\TrainRendererExtensions.cs" />
+     <Compile Include="Assets\Scripts\VirtualButtonEvent.cs" />
+     <Compile Include="Assets\Scripts\WalkWay.cs" />
+     <Compile Include="Assets\Scripts\movement.cs" />
+     <Compile Include="Assets\Scripts\secondSceneCam.cs" />
+     <Compile Include="Assets\Scripts\start.cs" />
+     <Compile Include="Assets\Scripts\weather.cs" />
+     <Compile Include="Assets\SetButInc.cs" />
+     <Compile Include="Assets\TrailRendererHelper.cs" />
+     <Compile Include="Assets\click.cs" />
+     <Compile Include="Assets\clickTwo.cs" />
+     <Compile Include="Assets\clickedSphere.cs" />
+     <Compile Include="Assets\clickedSphereTwo.cs" />
+     <Compile Include="Assets\imagePressed.cs" />
+     <Compile Include="Assets\maxLight.cs" />
+     <Compile Include="Assets\play.cs" />
+     <Compile Include="Assets\rotateInit.cs" />
+     <Compile Include="Assets\show_arrows.cs" />
+     <Compile Include="Assets\swipeGesture.cs" />
+     <Compile Include="Assets\username.cs" />
+     <Compile Include="Assets\webc.cs" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\VertexLitWithZ.shader" />
+     <None Include="Assets\license_3rdpartynotice.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\RenderVideoBackground.shader" />
+     <None Include="Assets\Plugins\Android\res\values\ids.xml" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\readme_SDK.txt" />
+     <None Include="Assets\Stitchscape\Stitchscape changelog.txt" />
+     <None Include="Assets\Editor\QCAR\WebcamProfiles\profiles.xml" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\DepthMask.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\Dissertation.xml" />
+     <None Include="Assets\Stitchscape\Readme.txt" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\BrightTexture.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Qualcomm Augmented Reality\Shaders\Text3D.shader" />
+     <None Include="Assets\StreamingAssets\QCAR\unity.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/Brian/Desktop/DissertationUnity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Qualcomm.Vuforia.UnityExtensions">
+ <HintPath>C:/Users/Brian/Desktop/DissertationUnity/Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{532E40E6-8EDC-8CDF-6143-5F13CBFA0E9F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{0280CBCD-9DF2-96F1-B09E-B35D19657CDF}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,181 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:\Program Files (x86)\Unity\Editor\Data\PlaybackEngines\androidplayer/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll"
+-r:Assets/Plugins/ICSharpCode.SharpZipLib.dll
+-r:"Assets/Qualcomm Augmented Reality/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll"
+-define:UNITY_4_6_2
+-define:UNITY_4_6
+-define:UNITY_ANDROID
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_NEW_HIERARCHY 
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_4_6_FEATURES
+-define:INCLUDE_WP_BLUE_SUPPORT
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:UNITY5_SCRIPTING_IN_UNITY4
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:UNITY_ANDROID_API
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_MONO
+-define:UNITY_PRO_LICENSE
+Assets/3d_clouds/scripts/PanWM.cs
+Assets/3d_clouds/scripts/transparency.cs
+Assets/3d_clouds/scripts/visibility.cs
+Assets/ChangeMap.cs
+Assets/DynamicHeader.cs
+Assets/Extensions/AndroidNative/Billing/Manage/AndroidInAppPurchaseManager.cs
+Assets/Extensions/AndroidNative/Billing/Models/AndroidInventory.cs
+Assets/Extensions/AndroidNative/Billing/Models/BillingResult.cs
+Assets/Extensions/AndroidNative/Billing/Templates/GoogleProductTemplate.cs
+Assets/Extensions/AndroidNative/Billing/Templates/GooglePurchaseTemplate.cs
+Assets/Extensions/AndroidNative/Core/AndroidNative.cs
+Assets/Extensions/AndroidNative/Enum/AndroidDialogResult.cs
+Assets/Extensions/AndroidNative/Enum/BillingResponseCodes.cs
+Assets/Extensions/AndroidNative/Other/AndroidAdMobController.cs
+Assets/Extensions/AndroidNative/Other/AndroidToast.cs
+Assets/Extensions/AndroidNative/PlayService/Manage/GoogleCloudManager.cs
+Assets/Extensions/AndroidNative/PlayService/Manage/GooglePlayConnection.cs
+Assets/Extensions/AndroidNative/PlayService/Manage/GooglePlayManager.cs
+Assets/Extensions/AndroidNative/PopUps/AndroidDialog.cs
+Assets/Extensions/AndroidNative/PopUps/AndroidMessage.cs
+Assets/Extensions/AndroidNative/PopUps/AndroidRateUsPopUp.cs
+Assets/Extensions/AndroidNative/PopUps/Base/BaseAndroidPopup.cs
+Assets/Extensions/AndroidNative/xExample/Scripts/AndroidAdMobExample.cs
+Assets/Extensions/AndroidNative/xExample/Scripts/AndroidPopUpExamples.cs
+Assets/Extensions/AndroidNative/xExample/Scripts/BillingExample.cs
+Assets/Extensions/AndroidNative/xExample/Scripts/GPaymnetManagerExample.cs
+Assets/Extensions/AndroidNative/xExample/Scripts/GoogleCloudUseExample.cs
+Assets/Extensions/AndroidNative/xExample/Scripts/NotoficationsExample.cs
+Assets/Extensions/AndroidNative/xExample/Scripts/PlayServiceExample.cs
+Assets/Extensions/FlashLikeEvents/Events/Core/Events/EventDispatcher.cs
+Assets/Extensions/FlashLikeEvents/Events/Core/Events/EventDispatcherBase.cs
+Assets/Extensions/FlashLikeEvents/Events/Data/BaseEvent.cs
+Assets/Extensions/FlashLikeEvents/Events/Templates/CEvent.cs
+Assets/Extensions/FlashLikeEvents/Events/interfaces/IDispatcher.cs
+Assets/Extensions/FlashLikeEvents/Example/Scripts/Button.cs
+Assets/Extensions/FlashLikeEvents/Example/Scripts/ExampleListner.cs
+Assets/Extensions/GooglePlayCommon/Enum/AndroidGravity.cs
+Assets/Extensions/GooglePlayCommon/Enum/GPAchievementState.cs
+Assets/Extensions/GooglePlayCommon/Enum/GPAchievementType.cs
+Assets/Extensions/GooglePlayCommon/Enum/GPBoardTimeSpan.cs
+Assets/Extensions/GooglePlayCommon/Enum/GPCollectionType.cs
+Assets/Extensions/GooglePlayCommon/Enum/GPConnectionState.cs
+Assets/Extensions/GooglePlayCommon/Enum/GoogleCloudSlot.cs
+Assets/Extensions/GooglePlayCommon/Enum/GooglePlayResponceCode.cs
+Assets/Extensions/GooglePlayCommon/Models/GPAchievement.cs
+Assets/Extensions/GooglePlayCommon/Models/GPLeaderBoard.cs
+Assets/Extensions/GooglePlayCommon/Models/GoogleCloudResult.cs
+Assets/Extensions/GooglePlayCommon/Models/GooglePlayResult.cs
+Assets/Extensions/GooglePlayCommon/PUtil/PlayServiceUtil.cs
+Assets/Extensions/GooglePlayCommon/PUtil/Singletone.cs
+Assets/Extensions/GooglePlayCommon/Templates/GooglePlayerTemplate.cs
+Assets/Extensions/GooglePlayCommon/Templates/LeaderBoardScoreVariant.cs
+Assets/GeologySelect.cs
+Assets/HeadTracking.cs
+Assets/Initialize.cs
+Assets/InputHandler.cs
+Assets/LogoButReset.cs
+Assets/LongPressEventTrigger.cs
+Assets/PanelButInc.cs
+Assets/PinchZoom.cs
+"Assets/Qualcomm Augmented Reality/Scripts/CameraControl.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/CloudRecoBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/CylinderTargetBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/DataSetLoadBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/DefaultInitializationErrorHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/DefaultSmartTerrainEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/DefaultTrackableEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/GLErrorHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/ImageTargetBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/AndroidUnityPlayer.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/BGRenderingBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/ComponentFactoryStarterBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/Internal/VuforiaBehaviourComponentFactory.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/KeepAliveBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/MainMenuScript.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/MarkerBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/MaskOutBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/MultiTargetBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/PropBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/QCARBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/SetBGCameraLayerBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/SmartTerrainBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/SurfaceBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TextRecoBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TurnOffBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/TurnOffWordBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/UserDefinedTargetBuildingBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/VirtualButtonBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/WebCamBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/WireframeBehaviour.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/WireframeTrackableEventHandler.cs"
+"Assets/Qualcomm Augmented Reality/Scripts/WordBehaviour.cs"
+Assets/Restart.cs
+Assets/RotateTerrain.cs
+Assets/Scripts/ChangeSat.cs
+Assets/Scripts/Custom_VirtualButton.cs
+Assets/Scripts/DynamicText.cs
+Assets/Scripts/FlickrInput.cs
+Assets/Scripts/GyroController.cs
+Assets/Scripts/ImagePopup.cs
+Assets/Scripts/LoadFlickrImages.cs
+Assets/Scripts/MeshPixelTools.cs
+Assets/Scripts/RockScripts/AgglomeratePress.cs
+Assets/Scripts/RockScripts/AndesitePress.cs
+Assets/Scripts/RockScripts/BasaltPress.cs
+Assets/Scripts/RockScripts/ClaySiltSandPress.cs
+Assets/Scripts/RockScripts/DacitePress.cs
+Assets/Scripts/RockScripts/DiamictonPress.cs
+Assets/Scripts/RockScripts/GravelPress.cs
+Assets/Scripts/RockScripts/MicrodioritePress.cs
+Assets/Scripts/RockScripts/PeatPress.cs
+Assets/Scripts/RockScripts/RhyolitePress.cs
+Assets/Scripts/RockScripts/SandGravelPress.cs
+Assets/Scripts/RockScripts/TuffPress.cs
+Assets/Scripts/TerrainHeight.cs
+Assets/Scripts/TrainRendererExtensions.cs
+Assets/Scripts/VirtualButtonEvent.cs
+Assets/Scripts/WalkWay.cs
+Assets/Scripts/movement.cs
+Assets/Scripts/secondSceneCam.cs
+Assets/Scripts/start.cs
+Assets/Scripts/weather.cs
+Assets/SetButInc.cs
+Assets/TrailRendererHelper.cs
+Assets/click.cs
+Assets/clickTwo.cs
+Assets/clickedSphere.cs
+Assets/clickedSphereTwo.cs
+Assets/imagePressed.cs
+Assets/maxLight.cs
+Assets/play.cs
+Assets/rotateInit.cs
+Assets/show_arrows.cs
+Assets/swipeGesture.cs
+Assets/username.cs
+Assets/webc.cs
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/2.0\System.Runtime.Serialization.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/2.0\System.Xml.Linq.dll"

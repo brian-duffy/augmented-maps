@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: a3b57f887683a2b4b8e0f759bf09131c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: AGGLOMERATE
+    100002: //RootNode
+    100004: ANDESITE
+    100006: BASALT
+    100008: CLAY_SAND_GRAVEL
+    100010: CLAY_SILT_SAND
+    100012: DACITE
+    100014: DIAMICTON_SANDY__CLAY_SAND
+    100016: GRAVEL
+    100018: GRAVEL_SAND_MUD
+    100020: MICRODIORITE
+    100022: PEAT
+    100024: RHYOLITE
+    100026: SAND_GRAVEL
+    100028: TUFF
+    400000: AGGLOMERATE
+    400002: //RootNode
+    400004: ANDESITE
+    400006: BASALT
+    400008: CLAY_SAND_GRAVEL
+    400010: CLAY_SILT_SAND
+    400012: DACITE
+    400014: DIAMICTON_SANDY__CLAY_SAND
+    400016: GRAVEL
+    400018: GRAVEL_SAND_MUD
+    400020: MICRODIORITE
+    400022: PEAT
+    400024: RHYOLITE
+    400026: SAND_GRAVEL
+    400028: TUFF
+    2300000: AGGLOMERATE
+    2300002: ANDESITE
+    2300004: BASALT
+    2300006: CLAY_SAND_GRAVEL
+    2300008: CLAY_SILT_SAND
+    2300010: DACITE
+    2300012: DIAMICTON_SANDY__CLAY_SAND
+    2300014: GRAVEL
+    2300016: GRAVEL_SAND_MUD
+    2300018: MICRODIORITE
+    2300020: PEAT
+    2300022: RHYOLITE
+    2300024: SAND_GRAVEL
+    2300026: TUFF
+    3300000: AGGLOMERATE
+    3300002: ANDESITE
+    3300004: BASALT
+    3300006: CLAY_SAND_GRAVEL
+    3300008: CLAY_SILT_SAND
+    3300010: DACITE
+    3300012: DIAMICTON_SANDY__CLAY_SAND
+    3300014: GRAVEL
+    3300016: GRAVEL_SAND_MUD
+    3300018: MICRODIORITE
+    3300020: PEAT
+    3300022: RHYOLITE
+    3300024: SAND_GRAVEL
+    3300026: TUFF
+    4300000: AGGLOMERATE
+    4300002: ANDESITE
+    4300004: BASALT
+    4300006: CLAY_SAND_GRAVEL
+    4300008: CLAY_SILT_SAND
+    4300010: DACITE
+    4300012: DIAMICTON_SANDY__CLAY_SAND
+    4300014: GRAVEL
+    4300016: GRAVEL_SAND_MUD
+    4300018: MICRODIORITE
+    4300020: PEAT
+    4300022: RHYOLITE
+    4300024: SAND_GRAVEL
+    4300026: TUFF
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

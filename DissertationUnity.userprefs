@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LoadFlickrImages.cs">
+    <Files>
+      <File FileName="Assets\Scripts\LoadFlickrImages.cs" Line="324" Column="7" />
+      <File FileName="Assets\LongPressEventTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets\username.cs" Line="12" Column="42" />
+      <File FileName="Assets\Scripts\FlickrInput.cs" Line="22" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
